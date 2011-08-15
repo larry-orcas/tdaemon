@@ -21,7 +21,7 @@ import datetime
 import re
 
 SPECIAL_CHARS_REGEX_PATTERN = r'[#&;`|*?~<>^()\[\]{}$\\]+' 
-IGNORE_EXTENSIONS = ('pyc', 'pyo')
+IGNORE_EXTENSIONS = ('pyc', 'pyo','~','#')
 IGNORE_DIRS = ('.bzr', '.git', '.hg', '.darcs', '.svn')
 IMPLEMENTED_TEST_PROGRAMS = ('nose', 'nosetests', 'django', 'py', 'symfony',
     'jelix',
